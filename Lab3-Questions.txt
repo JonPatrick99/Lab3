@@ -1,0 +1,13 @@
+//Jon Caldwell
+//COSC 2030
+//Oct 1, 2018
+
+
+
+2) The overflow that I detected was right at 256. This is when the number given will turn negative. Where none of the numbers should be negative.
+3) The overflow that I detected was right at 65536. This is when the number given will turn negative. Where non of the numbers should be negative.
+4) The overflow that I detected was right at 35. The output that I was given was inf. And the number shouldn't be inf, becasue it should be a number that is around 2.95233*10^38
+5) The overflow that I detected was right at 171. The output that I was given was inf. And the number shouldn't be inf, becasue it should be a number that is around 7.25742*10^306
+6) The overflow become to large so the output is just 0.
+7) The reason for the error is become floats store information differently.
+8) The effect that is given is that the number 4.4 isn't given as an output. 
